@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kitap</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            html, body{
+                margin: 0px;
+                padding: 0px;
+                height: 100%;
+                scroll-behavior: smooth;
+            }
+            div{
+                box-sizing: border-box;
+                height: 100%;
+            }
+            .sidebar{
+                width: auto;
+                height: 105px;
+                background-color: transparent;
+                float: left;
+                position: fixed;
+            }
+            a{
+                text-align: center;
+                color: white;
+                float: left;
+                padding: 0px 10px;
+                margin-bottom: 25px;
+                
+            }
+            h3{
+                margin-top: 50px;
+            } 
+            .main{
+                width: 100%;
+                height: 100%;
+                background-color: antiquewhite;
+            }   
+            section{
+                height: 100%;
+            }
+            .en{
+                height: 100%;
+                background-color: rgb(85, 117, 177);
+            }
+                #tablo_1{
+                    width: auto;
+                    height: auto;    
+                    padding-top: 150px;
+                    margin-left: auto;
+                    margin-right: auto;
+               
+                }
+                #kenar_1{  
+                background-color: floralwhite;
+                height: 200px;
+                width: auto;
+                }
+                h1{
+                    text-align: center;
+                    color: steelblue;
+                    
+                }
+                #yazi_1{
+                    width: 350px;
+                    padding-left: 5px;   
+                    background-color: floralwhite;
+                }
+           .yazar{
+                height: 100%;
+                background-color: darkcyan;
+            }
+                #tablo_2{
+                    width: auto;
+                    height: auto;
+                    margin-right: auto;
+                    margin-left: auto;
+                    padding-top: 250px;
+                }
+                #kenar_2{
+                    width: auto;
+                    height: auto;
+                    
+                }
+                #resim_2{
+                    width: 350px;
+                    height: 500px;
+                }
+                #yazi_2{
+                    width: 500px;
+                    height: 300px;
+                    border: 3px solid ;
+                    padding-left: 20px;
+                    background-image: linear-gradient(white, red);
+                }
+
+            .kitap{
+                height: 100%;
+                background-color: rgb(104, 96, 158);
+            }
+                #tablo_3{
+                    width: auto;
+                    height: auto;
+                    margin-right: auto;
+                    margin-left: auto;
+                    padding-top: 150px;
+                }
+                #yazi_3{
+                    width: 900px;
+                    height: auto;
+                    padding-left: 15px;
+                    
+                }
+                #foto{
+                    width: 400px;
+                    height: 350px;
+                    border: 3px solid rgb(243, 191, 201);
+                    border-radius: 20%;
+                }
+                #ad{
+                    text-align: center;
+                    color: rgb(243, 191, 201);
+                    text-decoration: overline;
+                    text-decoration: line-through;
+                    text-decoration: underline;
+                }
+                #bio{
+                    color: whitesmoke;
+                    font-weight: bold;
+                    font-size: large;
+                }
+                #list{
+                    color: rgb(243, 191, 201);
+                }
+                ul{
+                    color: whitesmoke;
+                    list-style: circle;  
+                    font-size: large;
+                    font-weight: bold;              
+                }
+            .oneri{
+                height: 130%;
+                background-color: rgb(101, 101, 163);
+            }
+                #tablo_4{
+                    width: auto;
+                    height: auto;
+                    padding-top: 150px;
+                }
+                #kenar_4{
+                    width: 412px;
+                    height: auto;
+                }
+                #resim_4{
+                    width: 200px;
+                    height: 300px;
+                    border: 3px solid pink;
+                }
+                #resim_5{
+                    width: 200px;
+                    height: 300px;
+                    float: left;
+                    border: 3px solid pink;
+                }
+                #yazi_4{
+                    width: auto;
+                    height: auto;
+                    border: 3px solid pink;
+                    color: black;
+                    padding-left: 10px;
+                }
+
+             
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="sidebar">
+                <a href="#bir"><h3>YILIN KİTAPLARI</h3></a>
+                <a href="#iki"><h3>AYIN KİTABI</h3></a>
+                <a href="#uc"><h3>YILLIN YAZARI</h3></a>
+                <a href="#dort"><h3>KİTAP ÖNERİLERİ</h3></a>
+                <a href="file:///C:/Users/USER/Desktop/Anasayfa/Anasayfa.html"><h3>ANASAYFA</h3></a>
+            </div>
+            <div class="main">
+                <section>
+                    <div class="en" id="bir">
+                        <table id="tablo_1">
+                            <tr>
+                                <td id="kenar_1"><h1>VAR MISIN? <br><span>Doğan CÜCELOĞLU</span></h1></td>
+                                <td id="kenar_1"><h1>KÖRLÜK <br> <span>Jose SARAMAGO</span> </h1> </td>
+                                <td id="kenar_1"><h1>KAYIP TANRILAR ÜLKESİ <br> <span>Ahmet ÜMİT</span> </h1> </td>
+                                <td id="kenar_1"><h1>ALTINCI KOĞUŞ <br> <span>Anton ÇEHOV</span> </h1> </td>
+                                <td id="kenar_1"><h1>BALIKÇI ve OĞLU <br> <span>Zülfü LİVANELİ</span> </h1> </td>
+                            </tr>
+                            <tr>
+                                <td id="yazi_1">
+                                    <p>
+                                        &emsp;Doğan Cüceloğlu son kitabı Deniz Bayramoğlu ile söyleşilerinden oluşuyor.
+                                        Bu kitabında Cüceloğlu mesleki kimliğinin yanı sıra hayat tecrübelerini anlatan bir arkadaş gibi.
+                                        Sohbet havasında geçen bu kitapta kendinizi keşfetmeye, zorluklarla başa çıkmaya var mısınız?</p>
+                                </td>
+                                <td id="yazi_1">
+                                    <p>
+                                        &emsp;Başarılı yazar Jose Saramago'nun 95 yılında yayınladığı kitap, görmek ve bakmak arasındaki farkı net bir şwkilde gösteriyor.
+                                        "Bakabiliyorsan gör. Görebiliyorsan, gözle" cümlesiyle başlayan ve bir körlük salgını vasıtasıyla gerçekleri yüzüme vuran bir kitap.
+                                    </p>
+                                </td>
+                                <td id="yazi_1">
+                                    <p>
+                                        &emsp;Ahmet Ümit, bu sefer polisiyeyi arkeoloji ve mitolojiyle harmanladığı bir romanla karşımıza çıkıyor. Zeus Atları ve Pargemon Tapınağı
+                                        gölgesinde geçmişin mitlerini günümüze uyarlıyo. Berlin'den Bergama'ya uzanan bu macerada suçun doğasının çağlar boyunca değişmediğini 
+                                        yüzümüze vuruyor.    
+                                    </p>
+                                </td>
+                                <td id="yazi_1">
+                                    <p>
+                                        &emsp;Çehov'un 1982 çıkıslı kısa hiayesidir.
+                                        Eğitimli hasta Ivan Dmitriç ve Doktor Andrey Yefimıç arasındaki felsefi çatışmayı anlatır. Ivan Dmitriç'in paranoyasına rağmen
+                                        haksızlıkları başkaldırması ve doktorun kayıtsızlığı üstüne odaklanır. Doktor hatasını anladığında ise artık iş işten geçmiştir.
+                                    </p>
+                                </td>
+                                <td id="yazi_1">
+                                    <p>
+                                        &emsp;Toplumsal konulara verdiği önemle bilinen Zülfü Livaneli'nin yeni kitanında da göçmenlik sorununu ele almış.
+                                        Egede yaşayan bir balıkçı ailesinin gözünden yaşanan olayları izliyoruz.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="kenar_1"><h1>BEN, KIRKE <br> <span>Madeline MILLER</span></h1></td>
+                                <td id="kenar_1"><h1>VEBA GECELERİ <br> <span>Orhan PAMUK</span></h1></td>
+                                <td id="kenar_1"><h1>CESUR YENİ DÜNYA <br> <span>Aldous HUXLEY</span></h1></td>
+                                <td id="kenar_1"><h1>YAKIN TARİHİN GERÇEKLERİ <br> <span>İlber ORTAYLI</span></h1></td>
+                                <td id="kenar_1"><h1>EMPEDOKLES'İN DOSTLARI <br> <span>Amin MAALOUF</span></h1></td>
+                            </tr>
+                            <tr>
+                                <td id="yazi_1">
+                                    <p>
+                                        &emsp;2018 yılında çıkmış ve birçok değerlendirme kurumu tarafından yılın kitabı seçilmiştir. Birçok mitolojik karakterin yıllardır anlatılan
+                                        hikayesini başka bir bakış açısıyla anlatıyor. 
+                                        <p> &emsp;Yıllardır ozanlar tarafından anlatılan cadılığın; nefret, kıskançlık veya kötülükten doğmadığını kanıtlıyor Kirke</p>
+                                    
+                                    </p>
+                                </td>
+                                <td id="yazi_1">
+                                    <p>
+                                        &emsp;Orhan Pamuk'un 30 yılı aşkın süredir üzerinde düşündüğü ve yaklaşık 5 yıldır çalışıtığı romanıdır. 1900'lerde Osmanlı'da hayali bir adada geçen bir roman.
+                                        Tarihi roman aynı zamanda aşk, siyaset gibi konuları da içinde barındırıyor.
+                                    </p>
+                                </td>
+                                <td id="yazi_1">
+                                    <p>
+                                        &emsp;1932 yılında çıkmış ve distopik eserler arasındaki en popülerlerden biri olmuş kitap bir Aldous Huxley eseridir.
+                                        Çarpıcı çıkarımlar ve kara mizahla birlikte eser yarattığı gelecekteki değerlerini kaybetmiş insanlara bize seslenir.
+                                        Huxley'in bu eserinde bulunduğu dönemin karamsarlığını hissetmek de zor değildir.
+                                    </p>
+                                </td>
+                                <td id="yazi_1">
+                                    <p>
+                                        &emsp;Türkiyenin yakın tarihini incelemek ve İlber Ortaylı'nın derin analizleriyle okumak isteyenler için harika bir seçenek.
+                                    </p>
+                                </td>
+                                <td id="yazi_1">
+                                    <p>
+                                        &emsp;Amin Maalouf'un uzun yıllar sonra yayımladığı ilk kitabı. Yarı distopik bir temaya sahip kitap gerçek bilgiye erişim olmadığı bir gelecekte geçiyor.
+                                        Bu durumun insanların hayatını nasıl etkilediği ve doğru savunan bir grubun nelerle yüzleşmesi gerektiğini anlatıyor.
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                    <div class="yazar" id="iki">
+                        <table id="tablo_2">
+                            <tr>
+                                <td id="kenar_2"><img src="Fahrenheit 451.jpg" id="resim_2"></td>
+                                <td id="yazi_2">
+                                    <p>
+                                        &emsp;Ray Bradbury'nin belki de en popüler eseri, distopik eserler arasında da en beğenilenlerden biri "Fahrenheit 451". 
+                                        Yazarın dikkat etmezsek sürükleniceğimizi iddia ettiği gelecek bir uyarı gibi. 
+                                    </p>
+                                    <p>
+                                        &emsp;Hikaye itfayecilerin yangınları söndürmek yerine başattığı bir gelecekte geçiyor. Bu gelecekte insanlar televizyonlara ve teknolojiye
+                                        gömülmüş ve kitaplar yok olmuştur. Hatta kitap okumak yasaklanmıştır.
+                                    </p>
+                                    <p>
+                                        &emsp;Bu korkunç gelecekte tüm değerlerini bir kenara bırakmış tekdüze bir hayat yaşayan Guy Montag bir gün hayatını ve çevresini sorgulamaya başlar.
+                                        Fakat sorgulamak bir itfayecinin yapabilleceği en kötü şeydir.
+                                    
+                                    <p>
+                                        &emsp;Her bir karakterinde yazardan bir parça bulunan bu eserde siz kendizi bulabilecek misiniz?
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="kitap" id="uc">
+                        <table id="tablo_3">
+                            <tr>
+                                <td><img src="a_r.jpg" id="foto"></td>
+                                <td id="yazi_3">
+                                    <h1 id="ad"><u>ABDULRAZAK GURNAH</u></h1>
+                                    <p id="bio">20 Aralık 1948'de Tanzanya'nın içindeki Zanzibar Sultanlığı'nda doğdu. Ana dili Svahili olmasına rağmen İngilizce 
+                                        ve Arapça bilen yazar eserlerini de İngilizce vermiştir. Gençlik döneminde; Zanzibar Ayaklanması'na, sonrasında da
+                                        sosyalist rejimin hareketlerine tanıklık etti. Ülkedeki Arap kökenli insalara olan baskılar yüzünden İngilterye 
+                                        yerleşmek zorunda kaldı. 1984'e kadar Zanzibar'a dönmesi mümkün olmadı.
+                                    </p>
+                                    <p id="bio">
+                                        İlköğretimini İngiliz okullarında tamamladı. Yükseköğretimini de Kent Üniversitesi'nde aldı. postkoloyal edebiyat
+                                        üzerinde uzmanlaşan yazar Nijerya'daki Bayero Üniversitesi Kano'da dersler verdi.
+                                    </p>
+                                    <p id="bio">
+                                        Şu anda da Kent Üniversitesi'nde İngiliz ve Sömürge Sonrası Edebiyat Profesörlüğü yapmaktadır.
+                                    </p>
+                                    <p id="bio">
+                                        Yetenkeli yazarın başarıları 2021 yılında Nobel Edebiyat Ödülüyle taçlandırıldı.
+                                    </p>
+                                    <h3 id="list">ROMANLARI:</h3>
+                                    <ul>
+                                        <li>Son Hediye</li>
+                                        <li>Kumdan Yürek</li>
+                                        <li>Sessizliğe Hayranlık</li>
+                                        <li>Terkediş</li>
+                                        <li>Deniz Kenarında</li>
+                                        <li>Cennet</li>
+                                        <li>Afterlife</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="oneri" id="dort">
+                        <table id="tablo_4" align="center">
+                            <tr>
+                                <td id="kenar_4">
+                                    <img src="1984.jpg" id="resim_4">
+                                    <img src="cıftlık.jpg" id="resim_5">
+                                </td>
+                                <td id="kenar_4">
+                                    <img src="Vakıf-1.jpg" id="resim_4">
+                                    <img src="HP-1.jpg" id="resim_5">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="yazi_4">
+                                    <p>
+                                        George Orwell'in iki unutulmaz eseri sadece iki distopya değil aynı zamanda birer uyarı işareti gibi.
+                                        İçeriklerini her döneme uyarlamanın mümkün olması işlerin ne kadar çabuk karışabiliceğini korkutucu bir şekilde bize gösteriyor.
+                                    </p>
+                                </td>
+                                <td id="yazi_4">
+                                    <p>
+                                        Bu iki kitap türlerinin en başarılı örneklerinden. Çoğu çocuğun fantastik kitapların dünyasına girmesine yardımcı olan Harry Potter
+                                        serisinin ilk kitabı olan Felsefe Taşı her yaştaki insana hitap etmesinin yanında sürükleyiciliğini korumayı başarıyor.
+                                    </p>
+                                    <p>
+                                        Asimov'un ünlü bilim-kurgu serisi olan Vakıf'a ise türünün en iyisi demek mümkün. Asimov'un da en başarılı eserlerinden
+                                        biri olarak görülen kitap profesör Heri Seldon'un zekasıyla bizi içine çekip kocaman bir evrenin kapısını açıyor.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="kenar_4">
+                                    <img src="Korku.jpg" id="resim_4">
+                                    <img src="gece.jpg" id="resim_5">
+                                </td>
+                                <td id="kenar_4">
+                                    <img src="bulbul.jpg" id="resim_4">
+                                    <img src="Simyacı.jpg" id="resim_5">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="yazi_4">
+                                    <p>
+                                        Stefan Zweig başarılı kısa hikayeleriyle ünlü olan bir yazar. Bana göre başarılı olmasının en büyük sebebi hikayelerindeki karakterleri
+                                        çok kısa bir sürede tanımamıza rağmen duygularını ve düşüncelerini bize çok başarılı bir şekilde geçirebilmesi. Yukarıdaki iki eserde bu 
+                                        düşüncemi destekler nitelikte 
+                                    </p>
+                                </td>
+                                <td id="yazi_4">
+                                    <p>
+                                        Bu kitapları okurken insanlığı, vicdanınızı ve gerçek mutluluğun kaynağını sorgulayacaksınız.  
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
