@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sinema</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            body, html{
+                height: 100%;
+                margin: 0px;
+                padding: 0px;
+                scroll-behavior: smooth;
+            }
+            div{
+                box-sizing: border-box;
+            }
+
+
+            header{         
+                                              
+                position: fixed;
+                top: 0;
+                height: auto;
+                width: 100%;
+                background-image: linear-gradient(rgba(255, 255, 255, 0,637),rgba(255, 182, 193, 0,637));
+                z-index: 999;
+            }
+            nav{
+               
+                z-index: 2;
+                width: 100%;
+                height: 100px;
+                line-height: 140px;
+                text-align: center;
+            }
+            nav a{
+                
+                color: whitesmoke;
+                font-family: 'Oswald' sans-serif;
+                text-decoration: none;
+                font-size: 20px;
+                margin-left: 10px;
+                padding: 12px 12px;
+            }
+            nav a:hover{
+                background-color: darkslategray;
+                opacity: 0.5;
+            }
+
+            .icerik{
+                height: 100%;
+                background-attachment: fixed;
+                background-size: cover;
+                       
+            }
+            #oneri{
+                background-image: url("arka_1.jpg");
+            }
+            #vizyon{
+                background-image: url("arka_2.jpg");
+            }
+            #ay{
+                background-image: url("arka_3.jpg");
+            }
+            #bilgi{
+                background-image: url("arka_4.jpg");
+            }
+               
+
+            .main_yazi{
+                width: 200px;
+                height: 100px;
+                margin-top: 0px;
+                position: absolute;
+                text-align: center;
+                margin-left: 200px;
+                z-index: 1;
+               
+            }
+            .main_golge{
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                opacity: 0.25;   
+                position: absolute;
+                float: left;
+                z-index: 0;
+            }
+            #film-1{
+                width: 150px;
+                height: 179px;
+
+            }
+            table{
+                width: 1500px;
+                height: auto;
+                z-index: 5;
+                background-color: rgba(186, 177, 199, 0.877);
+                opacity: 0,50;
+                position: absolute;
+                margin-top: 120px;
+                
+            }
+            td{
+                width: auto;
+                height: auto;
+                border: 3px solid darkblue;
+                color: black;
+                text-align: left;
+                
+                
+            }
+            p{
+                margin: 15px;
+            }
+            
+
+            #tab{
+                background-color: rgba(216, 190, 216, 0.856);
+                margin-left: 180px;
+                margin-top: 200px;
+                height: auto;
+                z-index: 5;
+                
+            }
+
+            #film-2{
+                width: 300px;
+                height: 450px;
+                padding-left: 100px;
+                
+            }
+            #viz{
+                border: 3px solid plum;
+                height: auto;
+                width: auto;
+                
+            }
+            #kutu{
+                background-color: rgba(182, 141, 157, 0.719);
+                height: auto;
+                margin-top: 250px;
+                margin-left: 200px;
+                z-index: 5;
+            }
+            #an{
+                border: 3px solid darkred;
+                padding-left: 105px;
+                
+                
+            }
+            #an_1{
+                border: 3px solid darkred;
+                padding-left: 15px;
+            
+                
+            }
+            #film-3{
+                width: 500px;
+                height: 350px;
+            }
+            #man{
+                background-color: rgba(143, 188, 143, 0.664);
+                margin-left: 200px;
+                margin-top: 150px;
+                height: auto;
+                z-index: 5;
+            }
+            #andy{
+                width: auto;
+                height: auto;
+                border: 3px solid rgb(105, 27, 27);
+                
+            }
+            #andy_2{
+                padding-left: 20px;
+                border: 3px solid rgb(105, 27, 27);
+                
+            }
+            #foto{
+                width: 350px;
+                height: 450px;
+                border-radius: 5px;
+            }
+          
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#oneri">ÖNERİLER</a>
+                <a href="#vizyon">VİZYONDAKİLER</a>
+                <a href="#ay">AYIN FİLMLERİ</a>
+                <a href="#bilgi">AYIN OYUNCUSU</a>
+            </nav>
+        </header>
+
+            <div class="icerik" id="oneri">
+                <div class="main_yazi">
+                   <table>
+                       <tr>
+                        <td><img src="the-theory-of-everything.jpg" id="film-1"></td>
+                        <td>
+                            <p>Film, modern bilim ve teknoloji tarihini değiştiren İngiliz fizikçi ve teorisyen Stephen Hawking'in hayatını ve karısı Jane Hawking ile olan ilişkisini, üniversite döneminden itibaren ele alıyor. </p>
+                            <p>Stephen Hawking Cambridge Üniversitesi'nin dehasıyla dikkat çeken bir öğrencisiyken Jane Wilde ile tanışır. İkisinin mutlu birlikteliği, Hawking'e henüz 21 yaşındayken teşhisi konulan hastalıkla başka bir boyut kazanır.
+                                Film tüm olasılıklara meydan okuyan çiftin hikayesini konu alır. Yıllar Hawking'in hastalığını daha da şiddetlendirir ve sonunda ilişkilerinin sınırlarını zorlayan bir noktaya sürükler.</p>
+                            <p>Filmin yönetmen koltuğunda Oscar ödüllü James Marsh bulunurken başrolleri Eddie Redmayne, Felicity Jones ve Emily Watson paylaşıyor. Eddie Redmayne'in dikkat çeken oyunculuğu 2015 yılı en iyi erkek oyuncu oscarıyla da taçlandırıldı.</p>
+                        </td>
+                       </tr>
+
+                       <tr>
+                        <td><img src="dunkirk.jpg" id="film-1"></td>
+                        <td>
+                            <p>Dunkirk, Christopher Nolan'ın yazdığı ve yönettiği 2017 çıkışlı savaş filmi.</p>
+                            <p>Dünya Savaşı sırasında İngiliz ordusunun Fransa'nın Dunkerque kıyılarında 400 bin askerle sıkışması ve bu ordunun, deniz desteğiyle Dunkerque'ten tahliye edilmesini konu almaktadır.</p>
+                            <p>Savaşı hava,kara ve denizden takip ettiğimiz yapım eleştirmenlerden de tam not aldı.
+                                Nolan'ın en beğenilen yapımlarından olan filmin başrolünü Mark Rylance üstleniyor. Oyuncu kadrosunda ise Mark Rylance, Harry Styles,
+                                Tom Hardy, Barry Keoghan ve Kenneth Branagh  bulunuyor.</p>
+                        </td>
+                       </tr>
+
+                       <tr>
+                        <td><img src="12_maymun.jpg" id="film-1"></td>
+                        <td>
+                            <p> 1995 yılı bir Terry Gillian filmi. Dünyayı yok eden ölümcül bir virüsün çıkış noktasını bulmak ve yok etmek için zamanda yolculuk yapan James Cole'un
+                                hikaysini izliyoruz. Zaman yolculuğu esnasında akıl hastanesine kapatılan James hikayesine insanları inandırmaya çalışıp geleceği kurtarmaya çalışır.
+                            </p>
+                            <p>
+                                Başrollerini Bruce Willis, Brad Pitt ve Madeleine Stowe'nin paylaştığı yapıt 2015 yılında da dizi olarak tekrar ekranlara gelmiştir.
+                            </p>
+                        </td>
+                       </tr>
+
+                       <tr>
+                        <td><img src="truman_show.jpg" id="film-1"></td>
+                        <td>
+                            <p>Eşi, en yakın arkadaşı, annesiyle sıradan ve tek düze bir hayat yaşayan Truman bir gün vefat ettiğini düşündüğü babasını sokakta görür.
+                                Bu andan sonra hayatını sorgulamaya  başlayan Truman haytaında normal olmayan şeyler olduğunu fark eder.
+                            </p>
+                            <p>
+                                Başrolünde Jim Carrey olan yapım, çıktığı günden bugüne kadar popülerliğini ve yenilikçi bakış açısını korumayı başarmıştır.
+                            </p>
+                            <p>
+                                1998 yılında çıkmıç olan Peter Weir filmi güzel bir komedi örneğidir.
+                            </p>
+                        </td>
+                       </tr>
+                   </table>
+                </div>
+                <div class="main_golge"></div> 
+            </div>
+            
+            <div class="icerik" id="vizyon">
+                <table id="tab">
+                    <tr>
+                        <td id="viz"><img src="matrix-b.jpg" id="film-2"></td>
+                        <td id="viz"><img src="spidey.jpg" id="film-2"></td>
+                        <td id="viz"><img src="enkanto.jpg" id="film-2"></td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td id="viz"><p>Yıllardır merakla beklenen devam filmi Lana Wachowski'nin yönetmenliğinde seyirciyle buluşuyor.</p></td>
+                        <td id="viz"><p>Home serisinin üçüncü filminde Spiderman Doctor Strange'den yardım ister fakat işler karışır. Böylece çoklu evrenlerin içinde tehlikeli bir macera başlar.
+                        </p></td>
+                        <td id="viz"><p>Madrigal ailesi, Enkanto adı verilen göz kamaştırıcı ve büyülü bir yerde yaşamaktadır. Burdaki Mirabel hariç her çocuk büyülü bir özellikle kutsanmıştır.
+                             Fakat işler sarpa sardığında tek umutları Mirabel olacaktır.</p></td>        
+                    </tr>
+                </table>
+            </div>
+           
+            <div class="icerik" id="ay">
+                <table id="kutu">
+                    <tr>
+                        <td id="an"><img src="spiderman nwh.gif" id="film-3"></td>
+                        <td id="an"><img src="tik-tik.gif" id="film-3"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="an_1"><p><h2>SPIDERMAN: NO WAY HOME</h2>Spiderman'in kendini bulma macerasında bu film ile Home serisini kapatıyoruz. Serinin en beklenmedik filmi sizi bekliyor.</p></td>
+                        <td id="an_1"><h2>&ensp;TICK TICK BOOM!</h2><p>Film Jonathan Larson'ın otobiyografik oyunundan beyaz perdeye uyarlanmıştır.</p>
+                            <p>90'larda New York'ta müzikal besteler yapan Jon'un hikayesini konu alır.
+                            30 yaşına yaklaşırken kariyer seçimini sorgulamaya başlar. </p><p>Bir yandan da kız arkadaşının baskısını hisseder.</p></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="icerik" id="bilgi">
+                <table id="man">
+                    <tr>
+                        <td id="andy"><img src="andy-2.jpg" id="foto"></td>
+                        <td id="andy_2">
+                            <h2>ANDREW GARFIELD</h2>
+                            <p>20 Ağustos 1983 yılında Los Angeles California'da doğmuştur. Annesi ingiliz, babası Amerikalıdır. Çocukluğunda jimnstikle uğraşmış daha sonra Central School of Speech and Drama okulunda oyunculuk eğitimi almıştır.</p>
+                            <p>12 yaşında Genç Tiyatrocular Gubuna katılmıştır. 2004 yılında Manchester, Royal Exchange Tiyatrosunda Romeo ve Juliet oyununda Romeo'yu canlandırdı.
+                                2006 yılında ise bu rolüyle Evening Standart Tiyatro Ödüllerinde olağanüstü yeni başlayanlar ödülünü kazandı
+                            </p>
+                            <p>2008'de "Boleyn Girl" filminde birçok ünlü oyuncularla ekranı paylaşmıştır.</p>
+                            <p>2009 yılına geldiğimizde ise genç oyuncu “Dr. Parnassus” filminde yer almıştır.</p>
+                            <p>2010 yılında "Amazing Spiderman" filminde oynadığı başrol ile sektör dışında da inanılmaz bir üne kavuşan oyuncu seri için toplam iki filmde yer aldı.</p>
+                            <p>2015 yılında Martin Scorsese'nin "Silence" filminde ve 2016'da Mel Gibson'ın "Savaş Vadisi" yapımında boy gösterdi.</p>
+                            <p>2021'e geldiğimide ise başarılı oyuncu rol aldığı "Tick Tick Boom!" filmiyle dikkatleri tekrar üzerinde topladı.</p>
+                            <h3>Yer Aldığı Tiyatro Oyunları:</h3>
+                             <ul>
+                                 <li>2004 Mercy</li>
+                                 <li>2004 Kes</li>
+                                 <li>2004-2006 Romeo and Juliet</li>
+                                 <li>2005 The Laramie Project</li>
+                                 <li>2006 Beautiful Thing</li>
+                                 <li>2006 Burn/Chatroom/Citizenship</li>
+                                 <li>2006 The Overwhelming</li>
+                                 <li>2012 Death of a Salesman</li>
+                                 <li>2017 The Children's Monologues</li>
+                                 <li>2017-2018 Angels in America</li>
+                             </ul>
+                         </td>
+                    </tr>
+                </table>
+            </div>
+    </body>
+</html>
